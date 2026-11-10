@@ -1,0 +1,111 @@
+Paso 5 · Entrenar FutbolKronos (reducido, 635,104 parámetros, 8 hilos)
+
+   entrenamiento: 9,552 partidos (1993/94–2017/18)
+   validación:    1,140 partidos (2018/19–2020/21)
+   prueba:        1,999 partidos (2021/22–2026/27)
+
+Fase 1 · Elegir semivida (entrenar hasta 2017/18, validar en 2018/19–2020/21)
+   (referencia en validación: Elo pérdida log 1.0141)
+
+ · Semivida: sin olvido
+   época  1  pérdida entrenamiento 5.9073  ·  validación: pérdida log 1.0238, acierto 49.2 %  *  (14.4 s)
+   época  2  pérdida entrenamiento 4.5093  ·  validación: pérdida log 1.0318, acierto 49.7 %  (14.0 s)
+   época  3  pérdida entrenamiento 4.2006  ·  validación: pérdida log 1.0229, acierto 49.7 %  *  (15.0 s)
+   época  4  pérdida entrenamiento 4.0873  ·  validación: pérdida log 1.0208, acierto 49.6 %  *  (15.3 s)
+   época  5  pérdida entrenamiento 3.9734  ·  validación: pérdida log 1.0516, acierto 49.3 %  (16.9 s)
+   época  6  pérdida entrenamiento 3.8548  ·  validación: pérdida log 1.0434, acierto 49.4 %  (16.3 s)
+   época  7  pérdida entrenamiento 3.7264  ·  validación: pérdida log 1.0358, acierto 48.1 %  (15.0 s)
+   época  8  pérdida entrenamiento 3.6030  ·  validación: pérdida log 1.0633, acierto 47.3 %  (18.5 s)
+   época  9  pérdida entrenamiento 3.4603  ·  validación: pérdida log 1.0873, acierto 45.9 %  (16.1 s)
+   época 10  pérdida entrenamiento 3.3334  ·  validación: pérdida log 1.1129, acierto 44.6 %  (15.1 s)
+   → mejor pérdida en validación 1.0208 en la época 4
+
+ · Semivida: 8 temporadas
+   época  1  pérdida entrenamiento 6.2893  ·  validación: pérdida log 1.0225, acierto 49.5 %  *  (17.3 s)
+   época  2  pérdida entrenamiento 4.8819  ·  validación: pérdida log 1.0315, acierto 49.7 %  (15.7 s)
+   época  3  pérdida entrenamiento 4.5148  ·  validación: pérdida log 1.0276, acierto 49.7 %  (14.3 s)
+   época  4  pérdida entrenamiento 4.3422  ·  validación: pérdida log 1.0242, acierto 48.9 %  (14.0 s)
+   época  5  pérdida entrenamiento 4.1785  ·  validación: pérdida log 1.0580, acierto 48.8 %  (14.2 s)
+   época  6  pérdida entrenamiento 4.0163  ·  validación: pérdida log 1.0620, acierto 48.5 %  (14.0 s)
+   época  7  pérdida entrenamiento 3.8338  ·  validación: pérdida log 1.0845, acierto 45.4 %  (14.1 s)
+   → mejor pérdida en validación 1.0225 en la época 1
+
+ · Semivida: 4 temporadas
+   época  1  pérdida entrenamiento 6.4993  ·  validación: pérdida log 1.0258, acierto 48.8 %  *  (13.9 s)
+   época  2  pérdida entrenamiento 5.1036  ·  validación: pérdida log 1.0393, acierto 49.7 %  (14.7 s)
+   época  3  pérdida entrenamiento 4.6751  ·  validación: pérdida log 1.0353, acierto 49.7 %  (17.7 s)
+   época  4  pérdida entrenamiento 4.4310  ·  validación: pérdida log 1.0311, acierto 48.9 %  (21.6 s)
+   época  5  pérdida entrenamiento 4.2000  ·  validación: pérdida log 1.0660, acierto 48.2 %  (23.6 s)
+   época  6  pérdida entrenamiento 3.9765  ·  validación: pérdida log 1.0905, acierto 47.2 %  (25.7 s)
+   época  7  pérdida entrenamiento 3.7390  ·  validación: pérdida log 1.1088, acierto 44.9 %  (30.8 s)
+   → mejor pérdida en validación 1.0258 en la época 1
+
+ · Semivida: 2 temporadas
+   época  1  pérdida entrenamiento 6.6210  ·  validación: pérdida log 1.0294, acierto 47.9 %  *  (34.7 s)
+   época  2  pérdida entrenamiento 5.2542  ·  validación: pérdida log 1.0458, acierto 49.1 %  (39.4 s)
+   época  3  pérdida entrenamiento 4.7139  ·  validación: pérdida log 1.0379, acierto 49.7 %  (32.8 s)
+   época  4  pérdida entrenamiento 4.3737  ·  validación: pérdida log 1.0317, acierto 48.6 %  (34.2 s)
+   época  5  pérdida entrenamiento 4.0311  ·  validación: pérdida log 1.0848, acierto 47.9 %  (31.5 s)
+   época  6  pérdida entrenamiento 3.6810  ·  validación: pérdida log 1.0980, acierto 46.8 %  (38.6 s)
+   época  7  pérdida entrenamiento 3.3679  ·  validación: pérdida log 1.1814, acierto 39.7 %  (37.6 s)
+   → mejor pérdida en validación 1.0294 en la época 1
+
+ · Semivida: 1 temporada
+   época  1  pérdida entrenamiento 6.7409  ·  validación: pérdida log 1.0421, acierto 47.6 %  *  (24.1 s)
+   época  2  pérdida entrenamiento 5.3027  ·  validación: pérdida log 1.0394, acierto 48.4 %  *  (37.7 s)
+   época  3  pérdida entrenamiento 4.6082  ·  validación: pérdida log 1.0372, acierto 49.8 %  *  (42.9 s)
+   época  4  pérdida entrenamiento 4.1171  ·  validación: pérdida log 1.0345, acierto 49.6 %  *  (31.9 s)
+   época  5  pérdida entrenamiento 3.6555  ·  validación: pérdida log 1.0999, acierto 47.5 %  (32.5 s)
+   época  6  pérdida entrenamiento 3.2267  ·  validación: pérdida log 1.1319, acierto 45.5 %  (33.0 s)
+   época  7  pérdida entrenamiento 2.8588  ·  validación: pérdida log 1.2080, acierto 40.7 %  (34.2 s)
+   época  8  pérdida entrenamiento 2.5541  ·  validación: pérdida log 1.2921, acierto 44.3 %  (26.9 s)
+   época  9  pérdida entrenamiento 2.2715  ·  validación: pérdida log 1.3385, acierto 43.5 %  (18.1 s)
+   época 10  pérdida entrenamiento 2.0672  ·  validación: pérdida log 1.3940, acierto 41.1 %  (17.4 s)
+   → mejor pérdida en validación 1.0345 en la época 4
+
+   Resumen fase 1:
+     sin olvido       1.0208  (época 4)   ← elegida
+     8 temporadas     1.0225  (época 1)
+     4 temporadas     1.0258  (época 1)
+     2 temporadas     1.0294  (época 1)
+     1 temporada      1.0345  (época 4)
+
+Fase 2 · Modelo final: semivida sin olvido, 4 épocas, entrenando hasta 2020/21, 3 semilla(s)
+   semilla 1 · época  1  pérdida entrenamiento 6.0581  (19.5 s)
+   semilla 1 · época  2  pérdida entrenamiento 4.5596  (18.2 s)
+   semilla 1 · época  3  pérdida entrenamiento 4.2409  (17.1 s)
+   semilla 1 · época  4  pérdida entrenamiento 4.1305  (17.4 s)
+   semilla 2 · época  1  pérdida entrenamiento 5.9957  (17.3 s)
+   semilla 2 · época  2  pérdida entrenamiento 4.5583  (17.3 s)
+   semilla 2 · época  3  pérdida entrenamiento 4.2664  (16.5 s)
+   semilla 2 · época  4  pérdida entrenamiento 4.1468  (16.2 s)
+   semilla 3 · época  1  pérdida entrenamiento 5.9409  (16.1 s)
+   semilla 3 · época  2  pérdida entrenamiento 4.5213  (16.2 s)
+   semilla 3 · época  3  pérdida entrenamiento 4.2319  (16.4 s)
+   semilla 3 · época  4  pérdida entrenamiento 4.1281  (18.9 s)
+
+FutbolKronos · Resultados en prueba (1,999 partidos, 2021/22–2026/27)
+Modelo: reducido, 635,104 parámetros · semivida sin olvido · 4 épocas · 3 semilla(s) promediadas
+
+Modelo                                       Pérdida log    Brier   Acierto
+Siempre lo mismo (frecuencias históricas)         1.0664   0.6442     45.7%
+Rating Elo                                        0.9868   0.5877     52.5%
+FutbolKronos (reducido)                           0.9815   0.5838     52.6%
+Casas de apuestas                                 0.9650   0.5731     54.3%
+
+Por temporada (pérdida log):  Elo · FutbolKronos · Casas
+   2021/22   1.0229 · 1.0068 · 0.9878   (380 partidos)
+   2022/23   1.0040 · 0.9892 · 0.9799   (380 partidos)
+   2023/24   0.9746 · 0.9627 · 0.9492   (380 partidos)
+   2024/25   0.9702 · 0.9817 · 0.9532   (380 partidos)
+   2025/26   0.9751 · 0.9662 · 0.9641   (380 partidos)
+   2026/27   0.9382 · 0.9847 · 0.9303   (99 partidos)
+
+Fase 1 (validación 2018/19–2020/21), pérdida log por semivida:
+   sin olvido       1.0208  (época 4)
+   8 temporadas     1.0225  (época 1)
+   4 temporadas     1.0258  (época 1)
+   2 temporadas     1.0294  (época 1)
+   1 temporada      1.0345  (época 4)
+
+Guardado: pesos/futbol-reducido-entrenado, datos/resultados_entrenamiento.txt, datos/predicciones_prueba.csv

@@ -1,0 +1,37 @@
+﻿equipo_football_data_org,candidato,parecido,emparejado,equipo_id
+SK Slavia Praha,SK Slavia Prague,0.8,True,EUR:SK Slavia Prague
+Viking FK,Viking Fotballklubb,0.9,True,EUR:Viking Fotballklubb
+FK Bodø/Glimt,Fotballklubben Bodø/Glimt,0.9,True,EUR:Fotballklubben Bodø/Glimt
+PSV,PSV Eindhoven,0.95,True,NED:PSV Eindhoven
+FC Bayern München,Bayern Munich,0.95,True,GER:Bayern Munich
+Real Madrid CF,Real Madrid,1.0,True,real-madrid
+PAE AEK,AEK,1.0,True,GRE:AEK
+Club Brugge KV,Club Brugge,1.0,True,BEL:Club Brugge
+Manchester City FC,Man City,1.0,True,ENG:Man City
+Borussia Dortmund,Dortmund,1.0,True,GER:Dortmund
+Lille OSC,Lille,1.0,True,FRA:Lille
+Villarreal CF,Villarreal,1.0,True,villarreal
+Real Betis Balompié,Real Betis Balompié,1.0,True,betis
+FC Internazionale Milano,Inter,1.0,True,ITA:Inter
+FC Porto,Porto,1.0,True,POR:Porto
+Aston Villa FC,Aston Villa,1.0,True,ENG:Aston Villa
+VfB Stuttgart,Stuttgart,1.0,True,GER:Stuttgart
+Feyenoord Rotterdam,Feyenoord,1.0,True,NED:Feyenoord
+FC Barcelona,Barcelona,1.0,True,barcelona
+Liverpool FC,Liverpool,1.0,True,ENG:Liverpool
+SSC Napoli,Napoli,1.0,True,ITA:Napoli
+Club Atlético de Madrid,Atlético de Madrid,1.0,True,atletico
+Paris Saint-Germain FC,Paris Saint-Germain,1.0,True,FRA:Paris SG
+ŠK Slovan Bratislava,Slovan Bratislava,1.0,True,EUR:Slovan Bratislava
+Galatasaray SK,Galatasaray,1.0,True,TUR:Galatasaray
+Sporting Clube de Portugal,Sporting CP,1.0,True,POR:Sp Lisbon
+Arsenal FC,Arsenal,1.0,True,ENG:Arsenal
+Fenerbahçe SK,Fenerbahce,1.0,True,TUR:Fenerbahce
+FK Shakhtar Donetsk,FC Shakhtar Donetsk,1.0,True,EUR:FC Shakhtar Donetsk
+AS Roma,Roma,1.0,True,ITA:Roma
+Manchester United FC,Man United,1.0,True,ENG:Man United
+LASK Linz,LASK,1.0,True,EUR:LASK
+Sabah FK,Sabah FK,1.0,True,EUR:Sabah FK
+Como 1907,Como,1.0,True,ITA:Como
+RB Leipzig,RB Leipzig,1.0,True,GER:RB Leipzig
+Racing Club de Lens,Lens,1.0,True,FRA:Lens

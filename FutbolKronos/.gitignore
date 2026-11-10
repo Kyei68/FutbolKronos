@@ -1,0 +1,18 @@
+# Claves de API: nunca al repositorio
+api_football_clave.txt
+football_data_clave.txt
+*_clave.txt
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# Experimentos (crear_secuencias_ligas.py --sufijo _exp)
+datos/*_exp.*
+datos/*_exp_partidos.csv
+
+# Supera el limite de 100 MB de GitHub (se vuelve a descargar con descargar_datos.py)
+datos/originales/game_lineups.csv.gz

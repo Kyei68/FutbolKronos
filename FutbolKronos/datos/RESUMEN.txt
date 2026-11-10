@@ -1,0 +1,15 @@
+FutbolKronos · Resumen de datos de LaLiga
+Generado: 01/11/2026
+
+Transfermarkt: 14 temporadas (2012/13 a 2025/26), último partido 24/05/2026
+football-data.co.uk: 34 temporadas (1993/94 a 2026/27), último partido 26/10/2026
+
+Tablas:
+  equipos.csv                       33 filas   17 columnas
+  jugadores.csv                  3,349 filas   29 columnas
+  entrenadores.csv                 437 filas   13 columnas
+  partidos.csv                   5,320 filas   20 columnas
+  alineaciones.csv             195,454 filas   10 columnas
+  eventos.csv                   80,844 filas   11 columnas
+  apariciones.csv              153,877 filas   13 columnas
+  resultados_y_cuotas.csv       12,691 filas   39 columnas

@@ -1,0 +1,59 @@
+{
+  "s1_bits": 5,
+  "s2_bits": 6,
+  "max_goals": 4,
+  "n_scores": 25,
+  "s1_especiales": {
+    "INICIO": 25,
+    "SEP": 26,
+    "PARTIDO": 27,
+    "SIN_HISTORIAL": 28
+  },
+  "s2_especial": 63,
+  "rival_umbrales_elo": [
+    -100,
+    0,
+    100
+  ],
+  "rival_niveles": [
+    "rival mucho más débil",
+    "rival más débil",
+    "rival más fuerte",
+    "rival mucho más fuerte"
+  ],
+  "dominio_umbrales_tiros_puerta": [
+    -3,
+    -1,
+    1,
+    3
+  ],
+  "dominio_niveles": [
+    "muy dominado",
+    "dominado",
+    "igualado",
+    "dominante",
+    "muy dominante",
+    "sin datos de tiros",
+    "por jugar"
+  ],
+  "stamp": {
+    "casillas": [
+      "partido_n_entrenador",
+      "nivel_elo",
+      "dia_semana",
+      "partido_n_temporada",
+      "mes"
+    ],
+    "tamaños": [
+      60,
+      24,
+      7,
+      32,
+      13
+    ],
+    "elo_min": 1250,
+    "elo_escalon": 25
+  },
+  "n_historial": 20,
+  "longitud_secuencia": 44
+}

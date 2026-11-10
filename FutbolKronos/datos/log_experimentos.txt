@@ -1,0 +1,10 @@
+   base             semilla 0: 1.0049 (calibrado 1.0047, con Elo 1.0016)  74 s
+   base             semilla 1: 1.0091 (calibrado 1.0072, con Elo 1.0008)  87 s
+   peso3            semilla 0: 1.0071 (calibrado 1.0070, con Elo 1.0037)  83 s
+   peso3            semilla 1: 1.0063 (calibrado 1.0060, con Elo 1.0007)  117 s
+   peso10           semilla 0: 1.0101 (calibrado 1.0099, con Elo 1.0040)  84 s
+   peso10           semilla 1: 1.0095 (calibrado 1.0095, con Elo 1.0018)  113 s
+   rojas            semilla 0: 1.0055 (calibrado 1.0053, con Elo 1.0022)  84 s
+   rojas            semilla 1: 1.0081 (calibrado 1.0066, con Elo 1.0002)  92 s
+   descanso         semilla 0: 1.0030 (calibrado 1.0029, con Elo 0.9980)  125 s
+   descanso         semilla 1: 1.0092 (calibrado 1.0073, con Elo 1.0007)  94 s

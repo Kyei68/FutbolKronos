@@ -1,0 +1,34 @@
+﻿club_id,name,club_code,en_laliga_actualmente,temporadas_en_laliga,primera_temporada,ultima_temporada,coach_name,stadium_name,stadium_seats,squad_size,average_age,foreigners_number,national_team_players,total_market_value,net_transfer_record,url
+13,Atlético de Madrid,atletico-madrid,True,14,2012,2025,Diego Simeone,Riyadh Air Metropolitano,70460,26,27.8,17,20,,€-62.00m,https://www.transfermarkt.co.uk/atletico-madrid/startseite/verein/13
+131,FC Barcelona,fc-barcelona,True,14,2012,2025,Hansi Flick,Spotify Camp Nou,62657,28,24.3,10,18,,€-66.00m,https://www.transfermarkt.co.uk/fc-barcelona/startseite/verein/131
+368,Sevilla FC,fc-sevilla,True,14,2012,2025,Matías Almeyda,Ramón Sánchez-Pizjuán,43883,27,26.8,13,7,,€-6.00m,https://www.transfermarkt.co.uk/fc-sevilla/startseite/verein/368
+418,Real Madrid,real-madrid,True,14,2012,2025,Xabi Alonso,Santiago Bernabéu,83186,30,25.5,20,20,,€-67.50m,https://www.transfermarkt.co.uk/real-madrid/startseite/verein/418
+621,Athletic Bilbao,athletic-bilbao,True,14,2012,2025,Ernesto Valverde,San Mamés,53289,32,26.8,4,7,,+€4.50m,https://www.transfermarkt.co.uk/athletic-bilbao/startseite/verein/621
+681,Real Sociedad,real-sociedad-san-sebastian,True,14,2012,2025,Sergio Francisco,Anoeta,40000,28,25.9,8,13,,+€4.50m,https://www.transfermarkt.co.uk/real-sociedad-san-sebastian/startseite/verein/681
+940,Celta de Vigo,celta-vigo,True,14,2012,2025,Claudio Giráldez,Abanca Balaídos,22803,29,27.1,6,5,,+-0,https://www.transfermarkt.co.uk/celta-vigo/startseite/verein/940
+1049,Valencia CF,fc-valencia,True,14,2012,2025,Carlos Corberán,Mestalla,49430,27,27.7,13,5,,€-4.00m,https://www.transfermarkt.co.uk/fc-valencia/startseite/verein/1049
+150,Real Betis Balompié,real-betis-sevilla,True,13,2012,2025,Manuel Pellegrini,La Cartuja,71374,26,27.5,12,6,,+€8.65m,https://www.transfermarkt.co.uk/real-betis-sevilla/startseite/verein/150
+1050,Villarreal CF,fc-villarreal,True,13,2013,2025,Marcelino,La Cerámica,23500,27,25.3,14,11,,+€2.50m,https://www.transfermarkt.co.uk/fc-villarreal/startseite/verein/1050
+3709,Getafe CF,fc-getafe,True,13,2012,2025,José Bordalás,Coliseum,16800,22,27.0,12,4,,€-8.00m,https://www.transfermarkt.co.uk/fc-getafe/startseite/verein/3709
+714,RCD Espanyol Barcelona,espanyol-barcelona,True,12,2012,2025,Manolo González,RCDE Stadium,37776,28,26.2,7,2,,€-5.00m,https://www.transfermarkt.co.uk/espanyol-barcelona/startseite/verein/714
+331,CA Osasuna,ca-osasuna,True,10,2012,2025,Alessio Lisci,El Sadar,23576,20,28.0,3,2,,+€40.50m,https://www.transfermarkt.co.uk/ca-osasuna/startseite/verein/331
+367,Rayo Vallecano,rayo-vallecano,True,10,2012,2025,Iñigo Pérez,Estadio de Vallecas,14708,24,28.4,11,6,,€-5.00m,https://www.transfermarkt.co.uk/rayo-vallecano/startseite/verein/367
+3368,Levante UD,ud-levante,True,10,2012,2025,Julián Calero,Ciutat de València,26354,22,24.6,5,3,,+-0,https://www.transfermarkt.co.uk/ud-levante/startseite/verein/3368
+1108,Deportivo Alavés,deportivo-alaves,True,9,2016,2025,Eduardo Coudet,Mendizorroza,19840,27,27.0,14,4,,€-2.00m,https://www.transfermarkt.co.uk/deportivo-alaves/startseite/verein/1108
+16795,Granada CF,fc-granada,True,9,2012,2023,,Nuevo Los Cármenes,19336,24,26.1,8,4,,+€19.70m,https://www.transfermarkt.co.uk/fc-granada/startseite/verein/16795
+237,RCD Mallorca,rcd-mallorca,True,7,2012,2025,Jagoba Arrasate,Mallorca Son Moix,25736,24,27.3,9,6,,+€28.20m,https://www.transfermarkt.co.uk/rcd-mallorca/startseite/verein/237
+366,Real Valladolid CF,real-valladolid,True,7,2012,2024,Paulo Pezzolano,José Zorrilla,27618,28,25.4,14,1,,+€11.30m,https://www.transfermarkt.co.uk/real-valladolid/startseite/verein/366
+1533,SD Eibar,sd-eibar,True,7,2014,2020,,Ipurua,8164,26,28.3,5,0,,+€2.60m,https://www.transfermarkt.co.uk/sd-eibar/startseite/verein/1533
+1084,Málaga CF,fc-malaga,True,6,2012,2017,,La Rosaleda,30044,27,27.9,8,0,,+€950k,https://www.transfermarkt.co.uk/fc-malaga/startseite/verein/1084
+1531,Elche CF,fc-elche,True,6,2013,2025,Eder Sarabia,Manuel Martínez Valero,31388,23,25.6,12,2,,€-6.50m,https://www.transfermarkt.co.uk/fc-elche/startseite/verein/1531
+12321,Girona FC,fc-girona,True,6,2017,2025,Míchel,Montilivi,14624,25,25.2,14,5,,+€13.80m,https://www.transfermarkt.co.uk/fc-girona/startseite/verein/12321
+472,UD Las Palmas,ud-las-palmas,True,5,2015,2024,Luis Carrión,Estadio de Gran Canaria,32400,27,26.6,6,1,,+€14.06m,https://www.transfermarkt.co.uk/ud-las-palmas/startseite/verein/472
+897,Deportivo de La Coruña,deportivo-la-coruna,True,5,2012,2017,,Abanca Riazor,32912,24,27.7,3,0,,€-435k,https://www.transfermarkt.co.uk/deportivo-la-coruna/startseite/verein/897
+1244,CD Leganés,cd-leganes,True,5,2016,2024,Borja Jiménez,Ontime Butarque,14422,24,27.7,5,3,,+€17.05m,https://www.transfermarkt.co.uk/cd-leganes/startseite/verein/1244
+2687,Cádiz CF,fc-cadiz,True,4,2020,2023,,Nuevo Mirandilla,21094,26,28.7,6,2,,+€4.00m,https://www.transfermarkt.co.uk/fc-cadiz/startseite/verein/2687
+3302,UD Almería,ud-almeria,True,4,2013,2023,,Power Horse Stadium,18331,24,25.2,13,5,,€-1.60m,https://www.transfermarkt.co.uk/ud-almeria/startseite/verein/3302
+2448,Sporting Gijón,sporting-gijon,True,2,2015,2016,,El Molinón - Enrique Castro Quini,29029,28,26.2,10,2,,+€5.23m,https://www.transfermarkt.co.uk/sporting-gijon/startseite/verein/2448
+5358,SD Huesca,sd-huesca,True,2,2018,2020,,El Alcoraz,9128,24,27.5,8,2,,+€1.43m,https://www.transfermarkt.co.uk/sd-huesca/startseite/verein/5358
+142,Real Zaragoza,real-saragossa,True,1,2012,2012,,La Romareda,33608,23,26.0,6,1,,+€30k,https://www.transfermarkt.co.uk/real-saragossa/startseite/verein/142
+993,Córdoba CF,fc-cordoba,True,1,2014,2014,,Nuevo Arcángel,21822,24,27.9,4,0,,+-0,https://www.transfermarkt.co.uk/fc-cordoba/startseite/verein/993
+2497,Real Oviedo,real-oviedo,True,1,2025,2025,Veljko Paunovic,Carlos Tartiere,30500,21,26.4,7,3,,€-200k,https://www.transfermarkt.co.uk/real-oviedo/startseite/verein/2497

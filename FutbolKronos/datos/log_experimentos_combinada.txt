@@ -1,0 +1,6 @@
+   cuotas_poisson_hibrido semilla 0: 1.0125 (calibrado 1.0125, con Elo 0.9986)  108 s
+   cuotas_poisson_hibrido semilla 1: 1.0123 (calibrado 1.0123, con Elo 0.9949)  118 s
+
+=== 2026-11-08 02:47 · validación 2018/19–2020/21 · 2 semillas · semividas 8
+variante         pérdida log  ± semillas  calibrado   con Elo   vs base
+cuotas_poisson_hibrido      1.0124      0.0001     1.0124    0.9968          

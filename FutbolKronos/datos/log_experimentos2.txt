@@ -1,0 +1,7 @@
+   base             semilla 0: 1.0049 (calibrado 1.0047, con Elo 1.0016)  125 s
+   base             semilla 1: 1.0091 (calibrado 1.0072, con Elo 1.0008)  135 s
+   rojas_descanso   semilla 0: 1.0042 (calibrado 1.0041, con Elo 0.9984)  190 s
+   rojas_descanso   semilla 1: 1.0080 (calibrado 1.0080, con Elo 0.9990)  170 s
+   historial40      semilla 0: 1.0044 (calibrado 1.0043, con Elo 1.0006)  192 s
+   historial40      semilla 1: 1.0104 (calibrado 1.0091, con Elo 1.0023)  220 s
+FIN 1073807364 

@@ -1,0 +1,56 @@
+Paso 5 · Entrenar FutbolKronos (reducido, 635,104 parámetros, gráfica NVIDIA GeForce RTX 4080 Laptop GPU)
+   datos: 22 divisiones europeas
+
+   entrenamiento: 174,375 partidos (1993/94–2017/18), 9,552 de LaLiga
+   validación:    1,140 partidos de LaLiga (2018/19–2020/21)
+   prueba:        1,999 partidos de LaLiga (2021/22–2026/27)
+
+Fase 1 · Elegir semivida (entrenar hasta 2017/18, validar en 2018/19–2020/21)
+   (referencia en validación: Elo pérdida log 1.0141)
+
+ · Semivida: sin olvido
+   época  1  pérdida entrenamiento 4.8721  ·  validación: pérdida log 1.0150, acierto 49.3 %  *  (8.7 s)
+   época  2  pérdida entrenamiento 4.0173  ·  validación: pérdida log 1.0068, acierto 48.7 %  *  (8.5 s)
+   época  3  pérdida entrenamiento 3.9724  ·  validación: pérdida log 1.0095, acierto 49.8 %  (8.7 s)
+   época  4  pérdida entrenamiento 3.9527  ·  validación: pérdida log 1.0010, acierto 49.5 %  *  (9.0 s)
+   época  5  pérdida entrenamiento 3.9369  ·  validación: pérdida log 1.0071, acierto 49.6 %  (8.9 s)
+   época  6  pérdida entrenamiento 3.9212  ·  validación: pérdida log 1.0063, acierto 49.2 %  (9.1 s)
+   época  7  pérdida entrenamiento 3.9044  ·  validación: pérdida log 1.0023, acierto 50.2 %  (9.1 s)
+   época  8  pérdida entrenamiento 3.8878  ·  validación: pérdida log 1.0025, acierto 50.4 %  (9.2 s)
+   época  9  pérdida entrenamiento 3.8699  ·  validación: pérdida log 1.0108, acierto 49.6 %  (9.6 s)
+   época 10  pérdida entrenamiento 3.8535  ·  validación: pérdida log 1.0059, acierto 49.7 %  (9.6 s)
+   → mejor pérdida en validación 1.0010 en la época 4
+
+   Resumen fase 1:
+     sin olvido       1.0010  (época 4)   ← elegida
+
+Fase 2 · Modelo final: semivida sin olvido, 5 épocas, entrenando hasta 2020/21, 1 semilla(s)
+   semilla 1 · época  1  pérdida entrenamiento 4.9832  (10.8 s)
+   semilla 1 · época  2  pérdida entrenamiento 4.1007  (10.7 s)
+   semilla 1 · época  3  pérdida entrenamiento 4.0553  (10.7 s)
+   semilla 1 · época  4  pérdida entrenamiento 4.0367  (10.6 s)
+   semilla 1 · época  5  pérdida entrenamiento 4.0215  (10.7 s)
+
+FutbolKronos · Resultados en prueba (1,999 partidos de LaLiga, 2021/22–2026/27)
+Modelo: reducido, 635,104 parámetros · datos: ligas · semivida sin olvido · 5 épocas · 1 semilla(s) promediadas
+
+Modelo                                       Pérdida log    Brier   Acierto
+Siempre lo mismo (frecuencias históricas)         1.0664   0.6442     45.7%
+Rating Elo                                        0.9868   0.5877     52.5%
+FutbolKronos (reducido, ligas)                    0.9785   0.5818     53.1%
+Casas de apuestas                                 0.9650   0.5731     54.3%
+
+Mejora sobre el Elo: +0.0083 (IC 95 % de +0.0008 a +0.0158; mejor que el Elo en el 99 % de los remuestreos)
+
+Por temporada (pérdida log):  Elo · FutbolKronos · Casas
+   2021/22   1.0229 · 1.0118 · 0.9878   (380 partidos)
+   2022/23   1.0040 · 0.9878 · 0.9799   (380 partidos)
+   2023/24   0.9746 · 0.9660 · 0.9492   (380 partidos)
+   2024/25   0.9702 · 0.9726 · 0.9532   (380 partidos)
+   2025/26   0.9751 · 0.9602 · 0.9641   (380 partidos)
+   2026/27   0.9382 · 0.9556 · 0.9303   (99 partidos)
+
+Fase 1 (validación 2018/19–2020/21), pérdida log por semivida:
+   sin olvido       1.0010  (época 4)
+
+Guardado: pesos/futbol-reducido-ligas-entrenado, datos/resultados_entrenamiento_ligas_reducido.txt, datos/predicciones_prueba_ligas_reducido.csv

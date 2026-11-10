@@ -1,0 +1,22 @@
+
+=== 2026-11-02 12:26 · validación 2018/19–2020/21 · 1 semillas · semividas 8
+variante         pérdida log  ± semillas  calibrado   con Elo   vs base
+base                  1.0012      0.0000     1.0005    0.9988   +0.0000
+
+=== 2026-11-08 · validación 2018/19–2020/21, TODAS las ligas (24.229 partidos) · 2 semillas · semividas 8
+    (tanda cortada al cerrarse la sesión antes de historial40; reconstruida desde log_experimentos_mejoras.txt)
+variante         pérdida log  ± semillas  calibrado   con Elo   vs base
+cuotas                1.0141      0.0006     1.0139    0.9966   -0.0044
+cuotas_sin15          1.0149      0.0008     1.0147    0.9981   -0.0036
+poisson_hibrido       1.0166      0.0001     1.0166    0.9998   -0.0019
+hibrido               1.0171      0.0003     1.0169    0.9999   -0.0013
+poisson               1.0175      0.0000     1.0175    1.0015   -0.0010
+rojas_descanso        1.0179      0.0001     1.0178    1.0000   -0.0006
+coseno                1.0180      0.0004     1.0179    1.0003   -0.0005
+descanso              1.0182      0.0001     1.0181    1.0002   -0.0003
+base                  1.0185      0.0000     1.0183    1.0005   +0.0000
+historial10           1.0185      0.0003     1.0184    1.0004   +0.0000
+
+=== 2026-11-08 02:47 · validación 2018/19–2020/21 · 2 semillas · semividas 8
+variante         pérdida log  ± semillas  calibrado   con Elo   vs base
+cuotas_poisson_hibrido      1.0124      0.0001     1.0124    0.9968          

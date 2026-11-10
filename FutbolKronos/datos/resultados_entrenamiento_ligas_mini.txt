@@ -1,0 +1,23 @@
+FutbolKronos · Resultados en prueba (1,999 partidos de LaLiga, 2021/22–2026/27)
+Modelo: mini, 3,106,656 parámetros · datos: ligas · semivida 4 temporadas · 2 épocas + 0 de ajuste · 3 semilla(s) promediadas
+
+Modelo                                       Pérdida log    Brier   Acierto
+Siempre lo mismo (frecuencias históricas)         1.0664   0.6442     45.7%
+Rating Elo                                        0.9868   0.5877     52.5%
+FutbolKronos (mini, ligas)                        0.9778   0.5813     52.3%
+Casas de apuestas                                 0.9650   0.5731     54.3%
+
+Mejora sobre el Elo: +0.0091 (IC 95 % de +0.0013 a +0.0169; mejor que el Elo en el 99 % de los remuestreos)
+
+Por temporada (pérdida log):  Elo · FutbolKronos · Casas
+   2021/22   1.0229 · 1.0037 · 0.9878   (380 partidos)
+   2022/23   1.0040 · 0.9822 · 0.9799   (380 partidos)
+   2023/24   0.9746 · 0.9682 · 0.9492   (380 partidos)
+   2024/25   0.9702 · 0.9764 · 0.9532   (380 partidos)
+   2025/26   0.9751 · 0.9646 · 0.9641   (380 partidos)
+   2026/27   0.9382 · 0.9536 · 0.9303   (99 partidos)
+
+Fase 1 (validación 2018/19–2020/21), pérdida log por semivida:
+   sin olvido       1.0050  (época 2 + 2 de ajuste)
+   8 temporadas     1.0054  (época 2 + 0 de ajuste)
+   4 temporadas     1.0041  (época 2 + 0 de ajuste)

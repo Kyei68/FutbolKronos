@@ -1,0 +1,47 @@
+{
+  "modelo": "reducido",
+  "parametros": 635104,
+  "semivida": null,
+  "epocas": 4,
+  "entrenado_hasta": "2020/21",
+  "fase1": [
+    {
+      "semivida": null,
+      "val_logloss": 1.0208470821380615,
+      "epoca": 4
+    },
+    {
+      "semivida": 8.0,
+      "val_logloss": 1.0225193500518799,
+      "epoca": 1
+    },
+    {
+      "semivida": 4.0,
+      "val_logloss": 1.0258067846298218,
+      "epoca": 1
+    },
+    {
+      "semivida": 2.0,
+      "val_logloss": 1.029409646987915,
+      "epoca": 1
+    },
+    {
+      "semivida": 1.0,
+      "val_logloss": 1.0345382690429688,
+      "epoca": 4
+    }
+  ],
+  "args": {
+    "modelo": "reducido",
+    "semividas": "inf,8,4,2,1",
+    "epocas": 60,
+    "paciencia": 6,
+    "lote": 128,
+    "lr": 0.001,
+    "weight_decay": 0.1,
+    "peso_marcador": 1.0,
+    "semillas": 3,
+    "hilos": 0,
+    "rapido": false
+  }
+}

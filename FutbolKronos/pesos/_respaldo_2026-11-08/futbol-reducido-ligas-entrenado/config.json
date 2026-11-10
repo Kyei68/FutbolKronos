@@ -1,0 +1,13 @@
+{
+  "attn_dropout_p": 0.0,
+  "d_model": 128,
+  "ff_dim": 256,
+  "ffn_dropout_p": 0.2,
+  "learn_te": true,
+  "n_heads": 4,
+  "n_layers": 3,
+  "resid_dropout_p": 0.2,
+  "s1_bits": 5,
+  "s2_bits": 6,
+  "token_dropout_p": 0.0
+}

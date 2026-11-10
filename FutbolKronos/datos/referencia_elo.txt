@@ -1,0 +1,12 @@
+FutbolKronos · Modelos de referencia
+Evaluados en 4,279 partidos de 2015/16 a 2026/27 (no usados para ajustar nada).
+Pérdida logarítmica y Brier: cuanto MÁS BAJO, mejor. Acierto: % de veces que el resultado
+más probable fue el que ocurrió.
+
+Modelo                                       Pérdida log    Brier   Acierto
+Siempre lo mismo (frecuencias históricas)         1.0665   0.6443     45.7%
+Rating Elo                                        0.9866   0.5875     52.2%
+Casas de apuestas                                 0.9630   0.5721     54.0%
+
+Elo: K=20, ventaja de local=20, olvido entre temporadas=0%
+Objetivo del modelo FutbolKronos: bajar la pérdida del Elo y acercarse a las casas de apuestas.

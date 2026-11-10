@@ -1,0 +1,23 @@
+Paso 5 · Entrenar FutbolKronos (reducido, 635,104 parámetros, gráfica NVIDIA GeForce RTX 4080 Laptop GPU)
+   datos: 22 divisiones europeas
+
+   entrenamiento: 178,526 partidos (1993/94–2017/18), 9,552 de LaLiga
+   validación:    1,140 partidos de LaLiga (2018/19–2020/21)
+   prueba:        1,999 partidos de LaLiga (2021/22–2026/27)
+
+Modo producción · semivida 8 temporadas, 4 épocas, 247,955 partidos (hasta 2026/27), 3 semilla(s)
+
+   semilla 1 · época  1  pérdida entrenamiento 5.3311  (14.7 s)
+   semilla 1 · época  2  pérdida entrenamiento 4.4651  (13.2 s)
+   semilla 1 · época  3  pérdida entrenamiento 4.4077  (12.1 s)
+   semilla 1 · época  4  pérdida entrenamiento 4.3778  (10.5 s)
+   semilla 2 · época  1  pérdida entrenamiento 5.2862  (10.1 s)
+   semilla 2 · época  2  pérdida entrenamiento 4.4643  (10.4 s)
+   semilla 2 · época  3  pérdida entrenamiento 4.4085  (10.5 s)
+   semilla 2 · época  4  pérdida entrenamiento 4.3803  (10.7 s)
+   semilla 3 · época  1  pérdida entrenamiento 5.2758  (11.0 s)
+   semilla 3 · época  2  pérdida entrenamiento 4.4639  (11.1 s)
+   semilla 3 · época  3  pérdida entrenamiento 4.4070  (11.2 s)
+   semilla 3 · época  4  pérdida entrenamiento 4.3777  (11.3 s)
+
+Guardado: pesos/futbol-reducido-ligas-produccion (semilla_1 … semilla_3)

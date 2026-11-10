@@ -1,0 +1,87 @@
+Paso 4b · Velas y secuencias de todas las ligas (rojas: no, descanso: no, historial: 20, Europa: sí)
+
+   248,152 partidos de 28 divisiones
+   Tokenizando velas…
+   Construyendo secuencias…
+   Partidos de Primera emparejados con las referencias: 12,691 de 12,691
+
+   secuencias: 248,152  ·  tokens: 10,918,688  (20 veces los de solo LaLiga)
+   por división:
+     SP1  España · Primera                    12,701
+     SP2  España · Segunda                    13,318
+     E0   Inglaterra · Premier League         12,704
+     E1   Inglaterra · Championship           17,956
+     E2   Inglaterra · League One             17,794
+     E3   Inglaterra · League Two             17,678
+     EC   Inglaterra · National League        11,423
+     D1   Alemania · Bundesliga               10,042
+     D2   Alemania · 2. Bundesliga             9,773
+     I1   Italia · Serie A                    11,634
+     I2   Italia · Serie B                    11,541
+     F1   Francia · Ligue 1                   11,582
+     F2   Francia · Ligue 2                   10,766
+     N1   Países Bajos · Eredivisie            9,835
+     B1   Bélgica · Pro League                 8,489
+     P1   Portugal · Primeira Liga             9,478
+     T1   Turquía · Süper Lig                  9,990
+     G1   Grecia · Super League                8,103
+     SC0  Escocia · Premiership                6,757
+     SC1  Escocia · Championship               5,999
+     SC2  Escocia · League One                 5,072
+     SC3  Escocia · League Two                 4,981
+     CL   Champions League                     1,927
+     CLQ  Champions League · previas           1,232
+     EL   Europa League                        2,628
+     ELQ  Europa League · previas              2,677
+     ECL  Conference League                      728
+     ECLQ Conference League · previas          1,344
+
+   Elo (escala España) antes del último partido de Primera:
+     barcelona          1603
+     real-madrid        1543
+     atletico           1453
+     betis              1390
+     villarreal         1380
+     real-sociedad      1314
+
+Listo.
+Paso 5 · Entrenar FutbolKronos (reducido, 642,085 parámetros, gráfica NVIDIA GeForce RTX 4080 Laptop GPU)
+   datos: 22 divisiones europeas
+
+   entrenamiento: 178,526 partidos (1993/94–2017/18), 9,552 de LaLiga
+   validación:    24,229 partidos de todas las ligas (2018/19–2020/21)
+   prueba:        1,999 partidos de LaLiga (2021/22–2026/27)
+
+Fase 1 · Elegir semivida (entrenar hasta 2017/18, validar en 2018/19–2020/21)
+   (referencia en validación LaLiga: Elo pérdida log 1.0141)
+
+ · Semivida: sin olvido
+   época  1  pérdida entrenamiento 4.7604  ·  validación: pérdida log 1.0214, acierto 48.8 %  *  (9.0 s)
+   época  2  pérdida entrenamiento 3.9918  ·  validación: pérdida log 1.0228, acierto 48.4 %  (8.1 s)
+   época  3  pérdida entrenamiento 3.9547  ·  validación: pérdida log 1.0204, acierto 48.6 %  *  (8.1 s)
+   época  4  pérdida entrenamiento 3.9343  ·  validación: pérdida log 1.0172, acierto 48.8 %  *  (8.3 s)
+   época  5  pérdida entrenamiento 3.9199  ·  validación: pérdida log 1.0172, acierto 48.9 %  (8.5 s)
+   época  6  pérdida entrenamiento 3.9121  ·  validación: pérdida log 1.0171, acierto 48.9 %  *  (8.6 s)
+   → mejor pérdida en validación 1.0171 en la época 6
+
+ · Semivida: 8 temporadas
+   época  1  pérdida entrenamiento 4.9558  ·  validación: pérdida log 1.0221, acierto 48.5 %  *  (8.7 s)
+   época  2  pérdida entrenamiento 4.1476  ·  validación: pérdida log 1.0223, acierto 48.4 %  (8.7 s)
+   época  3  pérdida entrenamiento 4.1009  ·  validación: pérdida log 1.0202, acierto 48.6 %  *  (8.8 s)
+   época  4  pérdida entrenamiento 4.0744  ·  validación: pérdida log 1.0176, acierto 48.7 %  *  (8.9 s)
+   época  5  pérdida entrenamiento 4.0551  ·  validación: pérdida log 1.0170, acierto 48.9 %  *  (9.0 s)
+   época  6  pérdida entrenamiento 4.0446  ·  validación: pérdida log 1.0167, acierto 48.9 %  *  (9.0 s)
+   → mejor pérdida en validación 1.0167 en la época 6
+
+ · Semivida: 4 temporadas
+   época  1  pérdida entrenamiento 5.0816  ·  validación: pérdida log 1.0233, acierto 48.4 %  *  (9.0 s)
+   época  2  pérdida entrenamiento 4.2375  ·  validación: pérdida log 1.0219, acierto 48.4 %  *  (9.0 s)
+   época  3  pérdida entrenamiento 4.1752  ·  validación: pérdida log 1.0208, acierto 48.5 %  *  (9.1 s)
+   época  4  pérdida entrenamiento 4.1383  ·  validación: pérdida log 1.0184, acierto 48.7 %  *  (9.1 s)
+   época  5  pérdida entrenamiento 4.1103  ·  validación: pérdida log 1.0172, acierto 48.8 %  *  (9.2 s)
+   época  6  pérdida entrenamiento 4.0952  ·  validación: pérdida log 1.0170, acierto 48.8 %  *  (9.3 s)
+   → mejor pérdida en validación 1.0170 en la época 6
+
+ · Semivida: 2 temporadas
+   época  1  pérdida entrenamiento 5.2227  ·  validación: pérdida log 1.0257, acierto 48.0 %  *  (9.3 s)
+   época  2  pérdida entrenamiento 4.3251  ·  validación: pérdida log 1.0222, acierto 48.3 %  *  (9.3 s)

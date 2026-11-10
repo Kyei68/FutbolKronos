@@ -1,0 +1,1 @@
+2026-11-08 02:47 · cuotas_poisson_hibrido   pérdida 1.0124 ± 0.0001 · calibrado 1.0124 · con Elo 0.9968 · --europa --cuotas --lr-plan coseno --cabeza poisson --rasgos

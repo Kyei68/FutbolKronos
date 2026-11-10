@@ -1,0 +1,60 @@
+{
+  "modelo": "reducido",
+  "datos": "ligas",
+  "parametros": 635104,
+  "semivida": 8.0,
+  "epocas": 4,
+  "epocas_ajuste": 0,
+  "entrenado_hasta": "2026",
+  "temperatura_calibrada": 0.95,
+  "combinacion_elo": [
+    0.6848401427268982,
+    0.30420994758605957,
+    [
+      -0.09610410779714584,
+      0.09715834259986877,
+      -0.0010543614625930786
+    ]
+  ],
+  "secuencias": {
+    "rojas": false,
+    "descanso": false,
+    "ausencias": "no",
+    "valor": "no",
+    "europa": true,
+    "n_hist": 20
+  },
+  "fase1": [
+    {
+      "semivida": 8.0,
+      "val_logloss": 1.0049254894256592,
+      "epoca": 3,
+      "epocas_ajuste": 0
+    }
+  ],
+  "args": {
+    "modelo": "reducido",
+    "datos": "ligas",
+    "ajuste": 0,
+    "semividas": "8",
+    "epocas": 60,
+    "paciencia": 6,
+    "lote": 512,
+    "lr": 0.001,
+    "lr_ajuste": 0.0003,
+    "weight_decay": 0.1,
+    "peso_marcador": 1.0,
+    "semillas": 3,
+    "hilos": 4,
+    "dispositivo": "cuda",
+    "rapido": false,
+    "solo_validacion": false,
+    "semilla_base": 0,
+    "produccion": false
+  },
+  "produccion": true,
+  "usar_calibracion": true,
+  "partidos": 247955,
+  "semillas": 3,
+  "fecha": "2026-11-03"
+}

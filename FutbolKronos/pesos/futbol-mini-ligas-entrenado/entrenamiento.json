@@ -1,0 +1,46 @@
+{
+  "modelo": "mini",
+  "datos": "ligas",
+  "parametros": 3106656,
+  "semivida": 4.0,
+  "epocas": 2,
+  "epocas_ajuste": 0,
+  "entrenado_hasta": "2020/21",
+  "fase1": [
+    {
+      "semivida": null,
+      "val_logloss": 1.0049834251403809,
+      "epoca": 2,
+      "epocas_ajuste": 2
+    },
+    {
+      "semivida": 8.0,
+      "val_logloss": 1.0054471492767334,
+      "epoca": 2,
+      "epocas_ajuste": 0
+    },
+    {
+      "semivida": 4.0,
+      "val_logloss": 1.0040712356567383,
+      "epoca": 2,
+      "epocas_ajuste": 0
+    }
+  ],
+  "args": {
+    "modelo": "mini",
+    "datos": "ligas",
+    "ajuste": 30,
+    "semividas": "inf,8,4",
+    "epocas": 60,
+    "paciencia": 6,
+    "lote": 512,
+    "lr": 0.001,
+    "lr_ajuste": 0.0003,
+    "weight_decay": 0.1,
+    "peso_marcador": 1.0,
+    "semillas": 3,
+    "hilos": 4,
+    "dispositivo": "cuda",
+    "rapido": false
+  }
+}

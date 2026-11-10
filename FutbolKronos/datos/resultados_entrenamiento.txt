@@ -1,0 +1,23 @@
+FutbolKronos · Resultados en prueba (1,999 partidos, 2021/22–2026/27)
+Modelo: reducido, 635,104 parámetros · semivida sin olvido · 4 épocas · 3 semilla(s) promediadas
+
+Modelo                                       Pérdida log    Brier   Acierto
+Siempre lo mismo (frecuencias históricas)         1.0664   0.6442     45.7%
+Rating Elo                                        0.9868   0.5877     52.5%
+FutbolKronos (reducido)                           0.9815   0.5838     52.6%
+Casas de apuestas                                 0.9650   0.5731     54.3%
+
+Por temporada (pérdida log):  Elo · FutbolKronos · Casas
+   2021/22   1.0229 · 1.0068 · 0.9878   (380 partidos)
+   2022/23   1.0040 · 0.9892 · 0.9799   (380 partidos)
+   2023/24   0.9746 · 0.9627 · 0.9492   (380 partidos)
+   2024/25   0.9702 · 0.9817 · 0.9532   (380 partidos)
+   2025/26   0.9751 · 0.9662 · 0.9641   (380 partidos)
+   2026/27   0.9382 · 0.9847 · 0.9303   (99 partidos)
+
+Fase 1 (validación 2018/19–2020/21), pérdida log por semivida:
+   sin olvido       1.0208  (época 4)
+   8 temporadas     1.0225  (época 1)
+   4 temporadas     1.0258  (época 1)
+   2 temporadas     1.0294  (época 1)
+   1 temporada      1.0345  (época 4)

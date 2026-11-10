@@ -1,0 +1,470 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T02:06:23+00:00",
+  "title": "Design System: FutbolKronos",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "canonical": "#0F1115",
+        "tonalRamp": [
+          "#23252A",
+          "#3C414B",
+          "#535C6E",
+          "#6A7791",
+          "#8B96AA",
+          "#AEB5C2",
+          "#D0D4DA",
+          "#F1F2F3"
+        ]
+      },
+      "sidebar-layer": {
+        "role": "neutral",
+        "displayName": "Sidebar Layer",
+        "canonical": "#151920",
+        "tonalRamp": [
+          "#22252B",
+          "#3A414D",
+          "#505C71",
+          "#657796",
+          "#8796AE",
+          "#ACB5C4",
+          "#CFD3DB",
+          "#F1F2F4"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "canonical": "#171B22",
+        "tonalRamp": [
+          "#22252A",
+          "#3A414C",
+          "#515C70",
+          "#677794",
+          "#8996AD",
+          "#ADB5C3",
+          "#D0D4DB",
+          "#F1F2F4"
+        ]
+      },
+      "zebra-row": {
+        "role": "neutral",
+        "displayName": "Zebra Row",
+        "canonical": "#1C212A",
+        "tonalRamp": [
+          "#22252B",
+          "#3A414D",
+          "#515C70",
+          "#667795",
+          "#8895AE",
+          "#ACB5C3",
+          "#CFD3DB",
+          "#F1F2F4"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field",
+        "canonical": "#1E232C",
+        "tonalRamp": [
+          "#22252A",
+          "#3B414C",
+          "#525C6F",
+          "#677794",
+          "#8996AD",
+          "#ADB5C3",
+          "#D0D4DB",
+          "#F1F2F4"
+        ]
+      },
+      "field-hover": {
+        "role": "neutral",
+        "displayName": "Field Hover",
+        "canonical": "#262C37",
+        "tonalRamp": [
+          "#22252A",
+          "#3B414C",
+          "#525C6F",
+          "#687793",
+          "#8A96AC",
+          "#ADB5C3",
+          "#D0D4DA",
+          "#F1F2F4"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#262C36",
+        "tonalRamp": [
+          "#23252A",
+          "#3B414B",
+          "#535D6E",
+          "#697992",
+          "#8A97AB",
+          "#AEB5C2",
+          "#D0D4DA",
+          "#F1F2F3"
+        ]
+      },
+      "chart-grid": {
+        "role": "neutral",
+        "displayName": "Chart Grid",
+        "canonical": "#222832",
+        "tonalRamp": [
+          "#22252A",
+          "#3B414C",
+          "#525D6F",
+          "#677894",
+          "#8996AD",
+          "#ADB5C3",
+          "#D0D4DB",
+          "#F1F2F4"
+        ]
+      },
+      "selection": {
+        "role": "neutral",
+        "displayName": "Selection",
+        "canonical": "#243650",
+        "tonalRamp": [
+          "#1E252E",
+          "#324055",
+          "#435B7E",
+          "#5176AA",
+          "#7794BE",
+          "#A2B4CE",
+          "#CAD3E0",
+          "#F0F2F5"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#E7EAEF",
+        "tonalRamp": [
+          "#22252B",
+          "#3A414D",
+          "#515D70",
+          "#667895",
+          "#8896AE",
+          "#ACB5C3",
+          "#CFD4DB",
+          "#F1F2F4"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Ink Muted",
+        "canonical": "#9BA3B0",
+        "tonalRamp": [
+          "#242629",
+          "#3E4249",
+          "#575E6A",
+          "#707A8B",
+          "#9098A6",
+          "#B1B6BF",
+          "#D2D4D8",
+          "#F1F2F3"
+        ]
+      },
+      "ink-faint": {
+        "role": "neutral",
+        "displayName": "Ink Faint",
+        "canonical": "#7D8695",
+        "tonalRamp": [
+          "#242628",
+          "#3F4248",
+          "#595F69",
+          "#727B8A",
+          "#9198A4",
+          "#B2B6BE",
+          "#D2D4D8",
+          "#F2F2F3"
+        ]
+      },
+      "ink-on-light": {
+        "role": "neutral",
+        "displayName": "Ink On Light",
+        "canonical": "#0B1220",
+        "tonalRamp": [
+          "#1C2331",
+          "#2D3C5A",
+          "#3A5487",
+          "#446BB7",
+          "#6D8CC9",
+          "#9CAFD4",
+          "#C7D0E3",
+          "#EFF1F6"
+        ]
+      },
+      "home-blue": {
+        "role": "primary",
+        "displayName": "Home Blue",
+        "canonical": "#4C9BFF",
+        "tonalRamp": [
+          "#11243C",
+          "#153E72",
+          "#1257AF",
+          "#0870F3",
+          "#3D90F9",
+          "#7EB1F2",
+          "#B8D2F2",
+          "#EBF1F9"
+        ]
+      },
+      "draw-grey": {
+        "role": "secondary",
+        "displayName": "Draw Grey",
+        "canonical": "#8B94A3",
+        "tonalRamp": [
+          "#242629",
+          "#3E4249",
+          "#575E6A",
+          "#707A8B",
+          "#9098A6",
+          "#B1B6BF",
+          "#D2D4D8",
+          "#F1F2F3"
+        ]
+      },
+      "away-orange": {
+        "role": "secondary",
+        "displayName": "Away Orange",
+        "canonical": "#FF8A4C",
+        "tonalRamp": [
+          "#3C2011",
+          "#723515",
+          "#AF4812",
+          "#F35908",
+          "#F97E3D",
+          "#F2A67E",
+          "#F2CCB8",
+          "#F9F0EB"
+        ]
+      },
+      "hit-green": {
+        "role": "tertiary",
+        "displayName": "Hit Green",
+        "canonical": "#43C07E",
+        "tonalRamp": [
+          "#1C3126",
+          "#2C5A42",
+          "#3A885E",
+          "#43B87A",
+          "#6CCA98",
+          "#9BD5B6",
+          "#C7E3D4",
+          "#EFF6F2"
+        ]
+      },
+      "miss-red": {
+        "role": "tertiary",
+        "displayName": "Miss Red",
+        "canonical": "#F26461",
+        "tonalRamp": [
+          "#381514",
+          "#6B1E1C",
+          "#A3211E",
+          "#E21E1A",
+          "#EA4F4B",
+          "#E98987",
+          "#EDBEBD",
+          "#F8ECEC"
+        ]
+      },
+      "real-gold": {
+        "role": "tertiary",
+        "displayName": "Real Gold",
+        "canonical": "#F2C14E",
+        "tonalRamp": [
+          "#392E14",
+          "#6B531C",
+          "#A47C1D",
+          "#E3A718",
+          "#ECBB4A",
+          "#EACC86",
+          "#EEDFBC",
+          "#F8F5EC"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Team names in the match header."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "1·X·2 percentages (favourite 17pt, others 15pt); brand 16pt; Context title 15pt."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Data-row values in the match header."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Fields, tables, tabs, context text; bold for group headings and slider values."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, hints, metadata, captions and sublabels."
+      },
+      "mono": {
+        "displayName": "Mono",
+        "purpose": "Date, score and venue columns in the recent-form list."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "bar-morph-first",
+        "value": "260ms cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "1·X·2 bar grows from equal thirds to the first result (quintic ease-out)."
+      },
+      {
+        "name": "bar-morph-update",
+        "value": "280ms cubic-bezier(0.77, 0, 0.175, 1)",
+        "purpose": "1·X·2 bar morphs from the previous split to the new one (quartic ease-in-out); interruptible; band brackets appear only once settled."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "window-min",
+        "value": "1160x740"
+      },
+      {
+        "name": "window-default",
+        "value": "1400x880"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single main action (Simular partido): light on dark, never a data colour.",
+      "html": "<button class=\"ds-btn-primary\">Simular partido</button>",
+      "css": ".ds-btn-primary{background:#E7EAEF;color:#0F1115;font:700 14px 'Segoe UI Variable Text','Segoe UI',sans-serif;padding:12px 15px;border:0;border-radius:0;width:290px;cursor:pointer} .ds-btn-primary:hover{background:#FFFFFF} .ds-btn-primary:active{background:#C9CFD8} .ds-btn-primary:focus-visible{outline:1px solid #4C9BFF} .ds-btn-primary:disabled{background:#2E3440;color:#7D8695}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary actions on results (export PNG / CSV), pinned beside the tabs.",
+      "html": "<button class=\"ds-btn-ghost\">Guardar gráfico PNG</button>",
+      "css": ".ds-btn-ghost{background:#1E232C;color:#E7EAEF;font:400 13px 'Segoe UI Variable Text','Segoe UI',sans-serif;padding:7px 10px;border:1px solid #262C36;border-radius:0;cursor:pointer} .ds-btn-ghost:hover{background:#262C37} .ds-btn-ghost:active{background:#262C36} .ds-btn-ghost:focus-visible{outline:none;border-color:#4C9BFF} .ds-btn-ghost:disabled{background:#151920;color:#7D8695}"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Sidebar text field with its muted label; square, hairline border, blue on focus.",
+      "html": "<div class=\"ds-field-wrap\"><label class=\"ds-field-label\">Fecha</label><input class=\"ds-field\" value=\"2026-11-08\"></div>",
+      "css": ".ds-field-wrap{background:#151920;padding:12px;display:flex;flex-direction:column;gap:4px;width:260px} .ds-field-label{color:#9BA3B0;font:400 11px 'Segoe UI Variable Text','Segoe UI',sans-serif} .ds-field{background:#1E232C;color:#E7EAEF;font:400 13px 'Segoe UI Variable Text','Segoe UI',sans-serif;padding:6px 10px;border:1px solid #262C36;border-radius:0;outline:none} .ds-field:hover{background:#262C37;border-color:#38404C} .ds-field:focus-visible{border-color:#4C9BFF}"
+    },
+    {
+      "name": "Tabs",
+      "kind": "nav",
+      "refersTo": "tab",
+      "description": "Text-only notebook tabs; the selected tab takes the pane's surface colour.",
+      "html": "<nav class=\"ds-tabs\"><button class=\"ds-tab ds-tab-on\">Simulación</button><button class=\"ds-tab\">Marcadores</button><button class=\"ds-tab\">Goles y mercados</button></nav>",
+      "css": ".ds-tabs{background:#0F1115;display:flex} .ds-tab{background:#0F1115;color:#9BA3B0;font:400 13px 'Segoe UI Variable Text','Segoe UI',sans-serif;padding:10px 20px;border:0;border-radius:0;cursor:pointer} .ds-tab:hover{background:#13161C;color:#E7EAEF} .ds-tab:focus-visible{outline:1px solid #4C9BFF} .ds-tab-on,.ds-tab-on:hover{background:#171B22;color:#E7EAEF}"
+    },
+    {
+      "name": "Checkbox",
+      "kind": "custom",
+      "refersTo": "checkbox-checked",
+      "description": "18 px square indicator; home blue with a dark check when on.",
+      "html": "<label class=\"ds-check\"><input type=\"checkbox\" checked><span>Incluir la incertidumbre del modelo</span></label>",
+      "css": ".ds-check{background:#151920;color:#E7EAEF;font:400 13px 'Segoe UI Variable Text','Segoe UI',sans-serif;display:flex;align-items:center;gap:10px;padding:8px} .ds-check input{appearance:none;width:18px;height:18px;margin:0;background:#1E232C;border:1px solid #3A424F;border-radius:1px} .ds-check:hover input{background:#262C37;border-color:#9BA3B0} .ds-check:hover{color:#FFFFFF} .ds-check input:checked{background:#4C9BFF url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M4.5 9.5l3 3 6-6.5' fill='none' stroke='%230B1220' stroke-width='2'/%3E%3C/svg%3E\");border-color:#4C9BFF} .ds-check input:focus-visible{outline:1px solid #4C9BFF;outline-offset:2px}"
+    },
+    {
+      "name": "Slider",
+      "kind": "custom",
+      "refersTo": "slider",
+      "description": "Thin track, travelled portion and round thumb; muted at rest, ink when live. Unanimated.",
+      "html": "<div class=\"ds-slider\"><div class=\"ds-slider-row\"><span>Simulaciones</span><b>50.000</b></div><input type=\"range\" min=\"10000\" max=\"100000\" step=\"10000\" value=\"50000\"></div>",
+      "css": ".ds-slider{background:#151920;padding:12px;width:270px;font:400 11px 'Segoe UI Variable Text','Segoe UI',sans-serif;color:#9BA3B0} .ds-slider-row{display:flex;justify-content:space-between} .ds-slider-row b{color:#E7EAEF;font-size:13px} .ds-slider input{appearance:none;width:100%;height:3px;background:linear-gradient(#9BA3B0,#9BA3B0) 0/44% 100% no-repeat,#262C36;border-radius:2px;margin:12px 0} .ds-slider input::-webkit-slider-thumb{appearance:none;width:14px;height:14px;border-radius:50%;background:#C9CFD8} .ds-slider input:hover::-webkit-slider-thumb{background:#E7EAEF} .ds-slider input:focus-visible{outline:none} .ds-slider input:focus-visible::-webkit-slider-thumb{background:#E7EAEF;box-shadow:0 0 0 3px #151920,0 0 0 4.5px #4C9BFF}"
+    },
+    {
+      "name": "Match Header",
+      "kind": "custom",
+      "refersTo": "outcome-bar",
+      "description": "Signature: team names, proportional 1·X·2 bar with model band, coloured percentages and a data row.",
+      "html": "<section class=\"ds-mh\"><div class=\"ds-mh-meta\">España · Primera · dom 01/11/2026 · 50.000 simulaciones</div><div class=\"ds-mh-teams\"><span>Getafe CF</span><span>Sevilla FC</span></div><div class=\"ds-mh-bar\"><i style=\"flex:33.5;background:#4C9BFF\"></i><i style=\"flex:32.7;background:#8B94A3\"></i><i style=\"flex:33.8;background:#FF8A4C\"></i></div><div class=\"ds-mh-pcts\"><div><b style=\"color:#4C9BFF\">33,5 %</b><small>Gana Getafe CF · modelo 31–35 %</small></div><div style=\"text-align:center\"><b style=\"color:#E7EAEF\">32,7 %</b><small>Empate · modelo 30–36 %</small></div><div style=\"text-align:right\"><b class=\"ds-mh-fav\" style=\"color:#FF8A4C\">33,8 %</b><small>Gana Sevilla FC · modelo 30–37 %</small></div></div><div class=\"ds-mh-row\"><div><small>Marcador más probable</small><b>1-1</b><em>16,2 %</em></div><div><small>Resultado real</small><b style=\"color:#F26461\">3-1</b><em>no era el más probable · le daba 33 %</em></div></div></section>",
+      "css": ".ds-mh{background:#0F1115;color:#E7EAEF;padding:18px 22px;width:760px;font-family:'Segoe UI Variable Text','Segoe UI',sans-serif} .ds-mh-meta,.ds-mh small{color:#7D8695;font-size:11px;display:block} .ds-mh-teams{display:flex;justify-content:space-between;font:700 28px 'Segoe UI Variable Display','Segoe UI',sans-serif;margin:4px 0 16px} .ds-mh-bar{display:flex;gap:3px;height:12px} .ds-mh-bar i{display:block} .ds-mh-pcts{display:grid;grid-template-columns:1fr 1fr 1fr;margin-top:10px} .ds-mh-pcts b{font:700 19px 'Segoe UI Variable Display','Segoe UI',sans-serif;display:block;padding-top:2px} .ds-mh-pcts b.ds-mh-fav{font-size:21px;padding-top:0} .ds-mh-pcts small{color:#9BA3B0} .ds-mh-row{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #262C36;margin-top:14px;padding-top:12px} .ds-mh-row>div+div{border-left:1px solid #262C36;padding-left:20px} .ds-mh-row b{font:700 16px 'Segoe UI Variable Display','Segoe UI',sans-serif} .ds-mh-row em{font-style:normal;color:#9BA3B0;font-size:11px;margin-left:8px}"
+    },
+    {
+      "name": "Table",
+      "kind": "card",
+      "refersTo": "table-row",
+      "description": "Surface table: muted bold headers, 28 px zebra rows, numbers right-aligned.",
+      "html": "<table class=\"ds-table\"><thead><tr><th>Mercado</th><th>Sí</th><th>No</th></tr></thead><tbody><tr><td>Más de 0,5 goles</td><td>91,9 %</td><td>8,1 %</td></tr><tr><td>Más de 1,5 goles</td><td>72,2 %</td><td>27,8 %</td></tr><tr><td>Marcan los dos equipos</td><td>54,1 %</td><td>45,9 %</td></tr></tbody></table>",
+      "css": ".ds-table{background:#171B22;color:#E7EAEF;font:400 13px 'Segoe UI Variable Text','Segoe UI',sans-serif;border-collapse:collapse;width:520px} .ds-table th{color:#9BA3B0;font-size:11px;font-weight:700;text-align:right;padding:10px} .ds-table th:first-child,.ds-table td:first-child{text-align:left} .ds-table td{height:28px;padding:0 10px;text-align:right} .ds-table tbody tr:nth-child(even){background:#1C212A} .ds-table tbody tr:hover{background:#243650}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Match Analyst's Desk",
+    "overview": "FutbolKronos is a working instrument for one person who opens it over and over to judge a model. The system is the category standard of football prediction graphics played straight, measured against the clarity of The Analyst (Opta) without borrowing its branding: a neutral near-black ground, one native type family, and colour reserved for the data itself. Nothing on screen is decorative; every hue answers a question (who is home, who is away, did the model get it right).\n\nDensity is moderate and desktop-native: a fixed 330 px control sidebar on a second, slightly lighter layer, and a main area that opens with a measured, canvas-drawn match header (team names, the proportional 1·X·2 bar with the model's uncertainty band, and a data row), followed by tabs for charts, tables and context. Depth comes from tonal layering and 1 px hairlines, never from shadows. Uncertainty is always shown, not hidden: band brackets over the bar, \"modelo 31–35 %\" sublabels, and a standing footer note that these are probabilities, not certainties.\n\nThe system explicitly rejects the generic dashboard: rows of identical white KPI cards with an indigo accent, and charts that look like a scientific report.",
+    "keyCharacteristics": [
+      "Two-layer dark neutral ground; tonal steps, no shadows.",
+      "Colour is data: home blue, draw grey, away orange, everywhere they appear (bar, charts, Elo figures, convergence lines).",
+      "The primary action is light-on-dark, never a data colour.",
+      "Green/red judge outcomes (real result, recent W/L form); gold marks the real score.",
+      "One native family (Segoe UI Variable) at two optical sizes, plus a mono for tabular form rows.",
+      "Square corners on every control; round only on the slider (track caps and thumb).",
+      "Spanish copy with comma decimals and dot thousands; percentages spaced (\"33,5 %\")."
+    ],
+    "rules": [
+      {
+        "name": "The Data Owns Colour Rule",
+        "body": "Saturated hue appears only on data or verdicts. Chrome is ground, hairline, field and ink. If a new element is not a team, an outcome, or the real result, it does not get a hue (focus, the one exception, borrows home blue at 1 to 1.5 px).",
+        "section": "colors"
+      },
+      {
+        "name": "The Light Button Rule",
+        "body": "The primary action is ink on ground (`button-primary`). It is never home blue, away orange or any judgement colour, so it can never be read as a prediction.",
+        "section": "colors"
+      },
+      {
+        "name": "The Fixed Sides Rule",
+        "body": "Home is always blue and left; away is always orange and right; draw is grey and between. Never swap or reuse these hues for anything else.",
+        "section": "colors"
+      },
+      {
+        "name": "The Size Is Confidence Rule",
+        "body": "Only the model's favourite outcome is promoted to the larger headline size. Size encodes the prediction; it is never used for emphasis elsewhere in the header.",
+        "section": "typography"
+      },
+      {
+        "name": "The Measured Text Rule",
+        "body": "Canvas-drawn text is positioned from real font metrics (linespace, measure), never from fixed pixel offsets, so nothing clips at another display scale.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tonal Step Rule",
+        "body": "To separate a region, step its background one tone or draw a 1 px hairline. Never add a shadow, glow or gradient.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep every new surface on the two-layer ground (ground, sidebar-layer) with surface for content panes and field for controls.",
+      "**Do** colour a team only with its side colour (home-blue left, away-orange right, draw-grey between) in every chart, figure and label that refers to it.",
+      "**Do** show the model's band on every 1·X·2 display when uncertainty is enabled (brackets on bars, \"modelo a–b %\" sublabels).",
+      "**Do** reserve hit-green / miss-red for verdicts (real result, W/L form) and real-gold for marking the real score.",
+      "**Do** separate regions with 1 px hairlines and tonal steps; keep corners square except the slider.",
+      "**Do** format numbers the Spanish way (\"33,5 %\", \"50.000\") and keep numeric table columns right-aligned.",
+      "**Do** draw empty states with the same geometry as the filled state, using \"—\" placeholders in ink-faint."
+    ],
+    "donts": [
+      "**Don't** build rows of identical KPI cards with an indigo accent, or charts styled like a scientific report.",
+      "**Don't** fill the primary button (or any chrome) with a data colour.",
+      "**Don't** add shadows, glows or gradients to separate surfaces.",
+      "**Don't** animate anything other than the 1·X·2 bar morph; sliders and controls respond instantly.",
+      "**Don't** present a probability without its uncertainty context or as a certainty."
+    ]
+  }
+}

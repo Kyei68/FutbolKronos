@@ -1,0 +1,56 @@
+# FutbolKronos · empaquetado estándar (PEP 517/518: [build-system]; PEP 621: [project]).
+#
+# Instalación recomendada (desde esta carpeta, en el entorno que vayas a usar):
+#     ..\venv-gpu\Scripts\python.exe -m pip install -e . --no-deps
+#     python3 -m pip install -e . --no-deps
+# Modo editable (-e): los scripts siguen leyendo datos/ y pesos/ de esta carpeta, y los
+# módulos (futbol_tokenizer, kronos_futbol…) se importan desde cualquier directorio sin
+# tocar sys.path. --no-deps evita que pip cambie tu PyTorch (CPU o CUDA) por otro.
+# En un entorno nuevo, sin --no-deps, pip instala las dependencias de abajo; PyTorch con
+# CUDA se instala antes a mano desde https://pytorch.org.
+
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "futbolkronos"
+version = "0.2.0"
+description = "Predicción de partidos de fútbol con la arquitectura de Kronos (transformer de series temporales)"
+readme = "ESQUEMA.md"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.2",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "huggingface_hub>=0.23",
+    "safetensors>=0.4",
+    "einops>=0.7",
+    "matplotlib>=3.8",
+]
+
+[tool.setuptools]
+packages = ["kronos_futbol"]
+py-modules = [
+    "analizar_atencion",
+    "api_football",
+    "crear_alineaciones",
+    "crear_calendario",
+    "crear_europa",
+    "crear_modelo",
+    "crear_secuencias",
+    "crear_secuencias_ligas",
+    "crear_velas",
+    "descargar_datos",
+    "descargar_ligas",
+    "entrenadores_actuales",
+    "entrenar",
+    "experimentos",
+    "futbol_predictor",
+    "futbol_rasgos",
+    "futbol_tokenizer",
+    "futbolkronos_gui",
+    "predecir_jornada",
+    "simulador",
+    "unificar_equipos",
+]
